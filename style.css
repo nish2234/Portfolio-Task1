@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.navbar{
+    
+    background-color: #000000cc;
+    color: aliceblue;
+    height: 8vh;
+    width: 100vw;
+    position:fixed;
+}
+.des{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.des li{
+    list-style: none;
+    margin: 1%;
+    font-size: 21px;
+}
+.container{
+    height: 85vh;
+}
+footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:10px ;
+    font-size: 20px;
+}
+.p2{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    margin-top: 2vh;
+    margin-right: 2vw;
+  
+
+}
+.p1{
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+}
+.container img{
+    width: 13vw;
+    border-radius: 100%;
+    
+}
+.maincont{
+    background-image: url("contBack.webp");
+    background-size: contain;
+    height: 100vh;
+
+}
+.para1{
+    color: white;
+    font-size: 65px;
+    animation: fadeIn 2s;
+    
+
+
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+
+    
+
+}
+.para2{
+    margin-top: 1vh;
+    color: white;
+    font-size: 32px;
+    animation: fadeIn 4s;
+    
+
+
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+
+
+    
+}
+.cont2{
+  text-align: center;
+}
+.cont3{
+    text-align:left;
+    height: 35vh;
+    padding-left: 6vw;
+}
+.cont3p1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 2vh;
+    animation: fadeIn 2s;
+    
+
+
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+.cont3p2{
+    font-size: 30px;
+    margin-top: 2vh;
+    animation: fadeIn 2s;
+    
+
+
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+    
+
+
+.cont3p3{
+font-size: 30px; 
+width: 63vw;   
+margin-top: 2vh;
+animation: fadeIn 4s;
+    
+
+
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+.cont4{
+    height: 22vh;
+    background-image: url("contBack.webp");
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+}
+.cont5{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 40px;
+    height: 95vh;
+    padding-top: 2vh;
+    
+
+}
+.cont5flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    color: white;
+    font-weight: 500;
+
+}
+.cont5c1{
+    width: 30%;
+    height: 70vh;
+    background-color: #008eff;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+.cont5c1 p{
+    font-size: 23px;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 2vw;
+}
+.cont5c1 img{
+    width: 27vw;
+    margin-top: 4vh;
+    
+}
+
+.cont5c2{
+    width: 30%;
+    height: 70vh;
+    background-color: #f14f43;
+    border-radius: 30px;
+    padding-top: 10px;
+    
+}
+.cont5c2 p{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 2vw;
+}
+.cont5c2 img{
+    margin-top: 2vh;
+    width: 23vw;
+
+    
+}
+.cont5c3{
+    width: 30%;
+    height: 70vh;
+    background-color: #404084;
+    border-radius: 30px;
+    padding-top: 10px;
+    
+}
+.cont5c3 p{
+    font-size: 23px;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 2vw;
+    color: white;
+    
+}
+.cont5c3 img{
+    width: 27vw;
+    margin-top: 4vh;
+    
+}
+.contactform{
+    height: 38vh;
+    background-image: url("contBack.webp");
+    background-size:contain;
+    color: white;
+}
+.insta img{
+    width: 1.5vw;
+
+}
+.linked img{
+    width: 1.5vw;
+    
+
+    
+}
+
+.gmail img{
+    width: 1.5vw;
+    
+
+}
+.git img{
+    width: 1.5vw;
+
+}
+.cont6 p{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.cont6{
+    width: 30vw;
+    margin-left: 6vw;
+    padding-top: 4vh;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+.gmail{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+.insta{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+
+}
+.linked{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    width: 9.25vw;
+
+}
+.git{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    width: 8.5vw;
+    
+}
